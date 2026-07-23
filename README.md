@@ -31,9 +31,12 @@ AUGR-VQA/
 │   ├── p5c_statistical_confidence_slice_robustness/ # Bootstrapping and slice robustness evaluation
 │   ├── p5d_modern_baseline_comparison_models/ # Supervised baseline models (A3, A4, B1, C1)
 │   └── p5e_modern_vlm_baseline_comparison/    # Zero-shot VLM comparison (LLaVA-Med, MedGemma)
-└── phase_6/
-    ├── p6a_models_unified_results_comparison/ # Final unified evaluation showcase
-    └── p6b_model_complexity/                  # Parameter and operational complexity audit
+├── phase_6/
+│   ├── p6a_models_unified_results_comparison/ # Final unified evaluation showcase
+│   └── p6b_model_complexity/                  # Parameter and operational complexity audit
+└── phase_7/
+    ├── p7a_paper_ready_augr_vqa_release/      # Harmonized paper-ready dataset release metadata
+    └── p7b_augr_vqa_qualitative_case_figure/  # Qualitative ribbon figure & case study report assets
 ```
 
 ---
@@ -140,6 +143,10 @@ Run the notebooks located in the `notebooks/` directory in the following order:
 #### Phase 6: Unified Analysis & Complexity
 21. **`Phase_6A_(BTUMQA_225K_Models_Unified_Results_Comparison).ipynb`**: Compiles model evaluations into unified benchmark tables and curves.
 22. **`Phase_6B_(BTUMQA_225K_Task_Trained_Parameter_Audit).ipynb`**: Analyzes trainable parameter counts and operational complexity (FLOPs).
+
+#### Phase 7: Naming Harmonization & Qualitative Case Study
+23. **`Phase_7A_(AUGR_VQA_Paper_Naming_Harmonization_Final_Release).ipynb`**: Harmonizes output files and creates the paper-ready release report.
+24. **`Phase_7B_(BTUMQA_225K_Four_Seeds_Prediction_QCUR_Qualitative_Case_Study_Figure_Revision_1).ipynb`**: Generates qualitative case study ribbon figures.
 
 ---
 
