@@ -114,7 +114,7 @@ Run the notebooks located in the `notebooks/` directory in the following order:
 
 #### Phase 1 and 2: Segmentation, Tokenization, and Uncertainty
 1. **`Phase_1A_(RSNA_BraTS_MONAI_Segmentation_RSNA_2D_Mask_Generation).ipynb`**: Performs 3D MONAI segmentation, extracts 2D slices, and generates mask overlays.
-2. **`Phase_2_(RSNA_BraTS_Visual_Token_Extraction_MC_Dropout_Uncertainty_UGTM).ipynb`**: Generates visual region tokens, computes MC-dropout region uncertainty, and performs UGTM token modulation.
+2. **`Phase_2ABC_(RSNA_BraTS_Visual_Token_Extraction_MC_Dropout_Uncertainty_UGTM).ipynb`**: Generates visual region tokens, computes MC-dropout region uncertainty, and performs UGTM token modulation.
 
 #### Phase 3: Dataset Preparation and Bias Auditing
 3. **`Phase_3A_(BTUMQA_225K_EDA).ipynb`**: Exploratory Data Analysis of the VQA dataset.
