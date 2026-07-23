@@ -1,0 +1,65 @@
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE and Editor settings
+.vscode/
+.idea/
+.qodo/
+.ipynb_checkpoints/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python runtime and environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# Ignore scratch directory (temporary scripts)
+scratch/
+
+# Ignore local temporary cache directories
+temp/
+
+# Ignore heavy dataset/cache file formats globally
+*.zip
+*.tar
+*.gz
+*.tgz
+*.rar
+*.7z
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.joblib
+*.pkl
+*.csv
+*.jsonl
+*.json
+
+# Ignore raw image dataset frames globally
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Ignore generated/cache directories specifically
+**/dataset_cache/
+**/visual_cache/
+**/hf_cache/
+**/features/
+**/predictions/
+**/done/
+**/reports/
+**/explanation_ready/
