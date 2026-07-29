@@ -1,6 +1,6 @@
 # AUGR-VQA
 
-Official implementation repository for **AUGR-VQA: An Uncertainty-Aware Guided Reasoning Framework for Brain Tumor Visual Question Answering**.
+Official implementation repository for **AUGR-VQA: Question-Adaptive Uncertainty-Guided Regional Reasoning for Reliable Brain Tumor MRI Visual Question Answering**.
 
 AUGR-VQA combines a question-adaptive regional reasoning backbone, **QAdp-DG-PRUGTM**, with **Q-CUR**, a post-prediction reliability module for calibrated confidence, selective-risk analysis, and review-flag support.
 
