@@ -1,10 +1,17 @@
-# AUGR-VQA
+# AUGR-VQA: Adaptive Uncertainty-Guided Regional Reasoning for Reliable Brain Tumor MRI Visual Question Answering
 
 Official implementation repository for **AUGR-VQA: Question-Adaptive Uncertainty-Guided Regional Reasoning for Reliable Brain Tumor MRI Visual Question Answering**.
 
 AUGR-VQA combines a question-adaptive regional reasoning backbone, **QAdp-DG-PRUGTM**, with **Q-CUR**, a post-prediction reliability module for calibrated confidence, selective-risk analysis, and review-flag support.
 
 This repository contains the code and notebooks used for dataset preparation, model training, ablation studies, reliability evaluation, statistical robustness analysis, and baseline comparison for the BTUMQA-225K brain tumor MRI VQA study.
+
+*(Note: In the training code and artifact filenames, this model is occasionally referred to by its development name adaptive_prugtm_qgca or QAdpPRUGTMHybrid, but it is formally named QAdp-DG-PRUGTM in the paper).*
+
+## 📦 Pretrained Models
+
+The official pre-trained weights for the final proposed model (QAdp-DG-PRUGTM) across all four evaluated random seeds are hosted on Hugging Face:
+**[https://huggingface.co/shuvomonowar00/AUGR-VQA](https://huggingface.co/shuvomonowar00/AUGR-VQA)**
 
 ---
 

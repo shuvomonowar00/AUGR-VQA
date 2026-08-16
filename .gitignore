@@ -63,3 +63,7 @@ temp/
 **/done/
 **/reports/
 **/explanation_ready/
+**/dataset_btumqa_225k/
+
+# Ignore Hugging Face staging directory
+huggingface/
